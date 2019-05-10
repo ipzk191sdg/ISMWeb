@@ -1,0 +1,36 @@
+body {
+    font-family: "courier-std", courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#content {
+    width: 800px;
+    margin: 0 auto 50px;
+}
+#content div{
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 40px;
+}
+#content img{
+    padding: 10px 60px;
+    margin-left: 30px;
+}
+#content a{
+    font-size: 20px;
+}
+footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    color: #fff;
+    width: 100%;
+}
+footer div {
+    text-align: center;
+    padding: 10px;
+    background: #39b54a;
+}

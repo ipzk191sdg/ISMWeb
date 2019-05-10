@@ -1,0 +1,60 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif;
+    background: #e1dfb9;
+}
+h2, h3 {
+    text-align: center;
+    color: darkgoldenrod;
+    margin-top: 0;
+}
+#container {
+    width: 500px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+header {
+    text-align: center;
+    padding: 5px;
+    background: darkgoldenrod;
+    color: #ffe;
+}
+aside {
+    margin-top: 10px;
+    width: 110px;
+    padding: 0 10px;
+    float: left;
+}
+aside >p> a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+main {
+    margin-left: 130px;
+    padding: 10px;
+    background: #fff;
+}
+#eps article img {
+    border:1px solid #d6d6d6;
+    width:150px;
+    height:150px;
+    margin-left: 100px;
+}
+#eps article h3 {
+    color: darkgoldenrod;
+    margin: 0;
+}
+#eps article {
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom: 1px dashed #d6d6d6;
+}
+#eps a {
+    color: darkgoldenrod;
+}
+footer {
+    background: darkgoldenrod;
+    color: #fff;
+    padding: 5px;
+    clear: left;
+    text-align: center;
+}

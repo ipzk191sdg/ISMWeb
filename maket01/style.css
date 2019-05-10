@@ -1,0 +1,36 @@
+body{
+    font-family: "courier-std", courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: beige;
+}
+header, footer{
+    height: 50px;
+    border: 1px solid #bfbfbf;
+    background-color: #12ff15;
+    text-align: center;
+    line-height: 50px;
+}
+footer{
+    margin-top: 130px;
+}
+main img{
+    position: center;
+    width: 550px;
+    margin-left: 410px;
+    margin-top: 10px;
+}
+main div{
+    position: absolute;
+    width: 610px;
+    height: 100px;
+    left: 50%;
+    top: 60%;
+    margin-left: -300px;
+    margin-top: 60px;
+    background: #12ff15;
+    border: solid 1px #bfbfbf;
+    padding: 30px 10px 10px 5px;
+    overflow: auto;
+    text-align: center;
+}
