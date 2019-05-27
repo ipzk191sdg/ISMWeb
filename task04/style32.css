@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+	color: red;
+	border-bottom: 1px solid lightgray;
+}
+ol{
+	float: left;
+	margin-left: 280px;
+	counter-reset: section;
+	column-count: 2;
+}
+li{
+	list-style: none;
+	border-bottom: 1px solid lightgray;
+	margin-right: 150px;
+}
+li:before{
+	counter-increment: section;
+	content: counters(section,".") " ";
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: white;
+	background-color: #1ee6e3;
+	padding: 0px 10px;
+	border-radius: 100%;
+	font-size: 30px;
+}

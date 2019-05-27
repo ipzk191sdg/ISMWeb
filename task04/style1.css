@@ -1,0 +1,167 @@
+div{
+	margin-top: 5px;
+	border: 1px solid red;
+	width: 200px;
+	height: 100px;
+	transition: .8s ease-in-out;
+}
+#div2, #div4{color: red;
+transition-property: color, background-color;}
+#div1:hover{background-color: red;}
+#div2:hover{
+	background-color: red;
+	color: white;
+}
+#div3, #div4, #div5, #div6, #div7, .div8{
+	height: 50px;
+	transition-property: width, font-size, margin-left;
+}
+#div3:hover{
+	width: 500px;
+}
+#div4:hover{
+	width: 500px;
+	font-size: 25px;
+}
+#div5:hover{
+	width: 400px;
+	margin-left: 80px;
+}
+#div6{
+	line-height: 50px;
+	text-indent: 2000px;
+	white-space: nowrap;
+	transition: text-indent 1s linear;
+	
+}
+#div6:hover{
+	text-indent: 0px;
+}
+#div7{
+	transition: 3s ease-in-out;
+	transition-property: width;
+	transition-delay: 3s;
+}
+#div7:hover{
+	width: 100%;
+}
+input{
+	margin-top: 5px;
+	height: 30px;
+	width: 200px;
+	transition: 1s;
+	transition-property: width, border-top, border-left;
+}
+input:focus{
+	width: 400px;
+	border-top: 3px solid darkgrey;
+	border-left: 3px solid darkgrey;
+}
+#main{
+	width: 800px;
+	border: 1px solid green;
+	height: 380px;
+	transition-property: width;
+}
+.div8{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#main:hover div{
+	width: 780px;
+}
+.div9, .div10, .div22{
+	height: 20px;
+	width: 400px;
+	transition-property: width;
+}
+.div9:hover ~ .div9{
+	width: 100%;
+}
+.div10:hover + .div10 + .div10 {
+    width: 70%;
+}
+#div11, #div14, #div15, #div16{
+	width: 400px;
+	height: 40px;
+	transition-property: margin-left;
+}
+#div12{
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 100px;
+	margin-left: -400px;
+}
+#div11:hover + #div12{
+	margin-left: 100px;
+}
+#div13{
+	border: none;
+	width: 100%;
+	height: 100px;
+	transition-property: width;
+}
+#div14{
+	transition: width 3s steps(5, start);
+}
+#div15{
+	transition: width 3s steps(5, end);
+}
+#div13:hover > div{
+	width: 100%;
+}
+#div16{
+	transition: width 3s cubic-bezier(.20,-0.4,0,.81);
+	transition-property: width;
+}
+#div16:hover{
+	width: 100%;
+}
+#div17{
+	height: 30px;
+	width: 300px;
+	transition: 2s linear;
+	transition-property: width;
+}
+#div18{
+	height: 30px;
+	margin: 0;
+	border: none;
+	background-color: red;
+	width: 0%;
+}
+#div17:hover > div{
+	width: 300px;
+}
+#div19{
+	width: 300px;
+	height: 30px;
+}
+#div20{
+	height: 30px;
+	margin-top: 0;
+	background-color: red;
+	width: 0%;
+	transition: 4s steps(3, start);
+	transition-property: width;
+	border: none;
+}
+#div19:hover > div{
+	width: 100%;
+}
+#div21{
+	width: 200px;
+	height: 100px;
+	position: relative;
+	top: 200px;
+	left: 600px;
+	transition: box-shadow 1s linear;
+    box-shadow: -100px 100px black, 100px -100px black;
+}
+#div21:hover {
+    box-shadow: 100px -100px black, 100px -100px black;
+}
+.div22:hover + .div22{
+	width: 1000px;
+}

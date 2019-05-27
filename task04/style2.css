@@ -1,0 +1,277 @@
+#div1{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim1 4s 3;
+}
+@keyframes anim1{
+	0%{
+		margin-left: 3px;
+	}
+	100%{
+		margin-left: 500px;
+	}
+}
+#div2{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim2 4s infinite;
+}
+@keyframes anim2{
+	0%{
+		margin-left: 3px;
+	}
+	100%{
+		margin-left: 500px;
+	}
+}
+#div3{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 5px;
+	border: 1px solid red;
+	animation: anim3 4s 35 0s;
+}
+@keyframes anim3{
+	0%{
+		background-color: white;
+	}
+	100%{
+		background-color: red;
+	}
+}
+#div4{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim4 8s linear 35;
+}
+@keyframes anim4{
+	0%{
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	25%{
+		margin-left: 50%;
+		margin-top: 0%;
+	}
+	50%{
+		margin-left: 50%;
+		margin-top: 20%;
+	}	
+	75%{
+		margin-left: 0%;
+		margin-top: 20%;
+	}
+	100%{
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+}
+#div5{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim51 8s linear infinite, anim52 3s linear infinite;
+}
+@keyframes anim51{
+	0%{
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	25%{
+		margin-left: 50%;
+		margin-top: 0%;
+	}
+	50%{
+		margin-left: 50%;
+		margin-top: 20%;
+	}	
+	75%{
+		margin-left: 0%;
+		margin-top: 20%;
+	}
+	100%{
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+}
+@keyframes anim52{
+	0%{
+		background-color: white;
+	}
+	50%{
+		background-color: red;
+	}
+	100%{
+		background-color: white;
+	}
+}
+#div6{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim6 4s infinite;
+}
+@keyframes anim6{
+	0%{
+		margin-left: 0%;
+	}
+	50%{
+		margin-left: 50%;
+	}
+	100%{
+		margin-left: 0%;
+	}
+}
+#div7{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 50px;
+	width: 50px;
+	animation: anim7 2s infinite alternate;
+}
+@keyframes anim7{
+	0%{
+		margin-left: 0%;
+	}
+	100%{
+		margin-left: 50%;
+	}
+}
+#div8{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 30px;
+	width: 400px;
+}
+#div9{
+	margin: 0;
+	height: 30px;
+	width: 0%;
+	background-color: red;
+	animation: anim9 5s linear 1 forwards;
+}
+@keyframes anim9{
+	o%{
+		width: 0%;
+	}
+	100%{
+		width: 400px;
+	}
+}
+#div10{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	height: 30px;
+	width: 400px;
+}
+#div11{
+	margin: 0;
+	height: 30px;
+	width: 0%;
+	background-color: red;
+	animation: anim11 15s linear infinite -8s;
+}
+@keyframes anim11{
+	o%{
+		width: 0%;
+	}
+	100%{
+		width: 400px;
+	}
+}
+#div12{
+	margin-bottom: 5px;
+	height: 30px;
+	border: 1px solid red;
+	animation: anim12 2s ease infinite alternate;
+	animation-play-state: paused;
+}
+#div12:hover{
+	animation-play-state: running;
+}
+@keyframes anim12{
+	0%{
+		width: 10%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+#div13{
+	margin-bottom: 5px;
+	border: 1px solid red;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#div14{
+	margin-bottom: 5px;
+	border: 1px solid blue;
+	height: 50px;
+	width: 50px;
+	animation: anim14 2s ease alternate infinite;
+	animation-play-state: paused;
+}
+#div13:hover + #div14{
+	animation-play-state: running;
+}
+@keyframes anim14{
+	0%{
+		width: 10%;
+	}
+	100%{
+		width: 100%;
+	}
+}
+#div15{
+	margin-bottom: 5px;
+	width: 220px;
+	height: 220px;
+	border: 1px solid red;
+	position: relative;
+}
+#div16{
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: relative;
+	animation: anim16 5s infinite;
+}
+@keyframes anim16{
+	40%, 70%, 90% {
+    animation-timing-function: ease-out;
+    bottom: -200px;
+}
+0% {
+    bottom: -10px;
+    left: 0;
+    animation-timing-function: ease-in;
+}
+55% {
+    bottom: -150px;
+    animation-timing-function: ease-in;
+}
+80% {
+   bottom: -175px;
+    animation-timing-function: ease-in;
+}
+95% {
+    bottom: -190px;
+    animation-timing-function: ease-in;
+}
+100% {
+    left: 110px;
+    bottom: -200px;
+    animation-timing-function: ease-out;
+}
+}
