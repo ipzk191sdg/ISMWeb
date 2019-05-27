@@ -1,0 +1,42 @@
+body{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header, footer, aside{
+    text-transform: uppercase;
+    text-align: center;
+}
+header{
+    background-color: #3ba0c7;
+    height: 50px;
+    line-height: 50px;
+    flex: 0 0 100%;
+}
+footer{
+    background-color: #2848c7;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+    flex: 0 0 100%;
+}
+#aside1{
+    background-color: deeppink;
+    flex: 2 2 0;
+
+}
+#aside2{
+    background-color: yellow;
+    flex: 2 2 0;
+}
+main{
+    background-color: lightgreen;
+    flex: 4 0 450px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+aside, main{
+    width: 100%;
+    position: relative;
+}

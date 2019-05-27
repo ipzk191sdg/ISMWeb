@@ -1,0 +1,134 @@
+ul.horiz, ul.horizont, ul.horizont-menu, ul.horiz-menu, ul.horizmenu {
+    list-style-type: none;
+    margin-left: 0; margin-top: 0; margin-right: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 1px solid blue;
+    background-color: #3ba0c7;
+    height: 50px;
+    line-height: 50px;
+}
+ul.horiz li, ul.horizont li, ul.horizont-menu li, ul.horiz-menu li, ul.horizmenu li {
+    display: inline-block;
+}
+ul.horiz li{
+    margin-right: 280px;
+}
+#about-us, #main{
+    margin-right: 0px;
+    margin-left: 50px;
+}
+ul.horiz li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+ul.horiz li a:hover, ul.horizont li a:hover, ul.horizont-menu li a:hover, ul.horiz-menu li a:hover, ul.horizmenu li a:hover{
+    background-color: white;
+    color: #3ba0c7;
+}
+#main-li, #mainli, #main-page{
+    margin-left: 500px;
+}
+ul.horizont li{
+    margin: 0;
+}
+ul.horizont li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+ul.horiz-menu, ul.horizont-menu{
+    height: 100px;
+    line-height: 30px;
+}
+ul.horiz-menu li{
+    position: relative;
+    top: -60px;
+    border: 1px solid blue;
+    margin: 0;
+    width: 110px;
+    height: 100px;
+    text-align: center;
+}
+#inf{
+    position: relative;
+    top: 0px;
+}
+ul.horiz-menu a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 110px;
+    height: 100px;
+}
+ul.horizont-menu li{
+    position: relative;
+    top: -30px;
+    border: 1px solid blue;
+    margin: 0;
+    width: 110px;
+    text-align: center;
+}
+#inform, #information, #infrm{
+    height: 100px;
+    position: relative;
+    top: 0px;
+}
+ul.horizont-menu a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 110px;
+}
+#main-pg, #aboutus-li{
+    margin-left: 870px;
+}
+ul.horizmenu{
+    height: 100px;
+    line-height: 50px;
+}
+ul.horizmenu li{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+ul.horizmenu li a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+ul.horizmenu li a:hover{
+    background-color: white;
+    color: #3ba0c7;
+}
+#workers{
+    margin-left: 500px;
+}
+ul.vert {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: unset;
+    height: unset;
+    line-height: unset;
+}
+ul.vert li{
+    display: block;
+    border: 1px solid blue;
+    background-color: #3ba0c7;
+    width: 500px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+ul.vert li:hover{
+    background-color: white;
+    color: #3ba0c7;
+}

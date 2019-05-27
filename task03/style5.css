@@ -1,0 +1,74 @@
+header, footer, aside{
+    text-transform: uppercase;
+    text-align: center;
+}
+header{
+    background-color: #3ba0c7;
+    height: 50px;
+    line-height: 50px;
+}
+footer{
+    background-color: #2848c7;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+}
+#aside1{
+    background-color: deeppink;
+    float: left;
+    padding-bottom: 10px;
+}
+#aside2{
+    background-color: yellow;
+    float: right;
+    padding-bottom: 10px;
+}
+main{
+    background-color: lightgreen;
+    text-align: center;
+    padding-bottom: 10px;
+}
+aside{
+    width: 20%;
+}
+aside, main{
+    height: 200px;
+}
+@media screen and (max-width: 800px){
+   #aside2{
+       width: 100%;
+       height: 50px;
+   }
+}
+@media screen and (max-width: 500px){
+    body{
+        display: grid;
+        grid-template-areas:
+                "h h h h h h h h h h h h h"
+                "m m m m m m m m m m m m m"
+                "a a a a a a a a a a a a a"
+                "u u u u u u u u u u u u u"
+                "f f f f f f f f f f f f f"
+    ;
+    }
+    main{grid-area: m;}
+    #aside1{grid-area: a;}
+    #aside2{grid-area: u;}
+    header{grid-area: h;}
+    footer{grid-area: f;}
+    aside{
+        float: none;
+    }
+    #aside1, #aside2{
+        width: 100%;
+        height: 50px;
+    }
+	main{
+		width: 100%;
+		height: 100px;
+	}
+    footer{
+        clear: none;
+    }
+}
